@@ -14,6 +14,7 @@
 		3B9870391E645CD9002FC1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9870381E645CD9002FC1DC /* Assets.xcassets */; };
 		3B98703C1E645CD9002FC1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B98703A1E645CD9002FC1DC /* LaunchScreen.storyboard */; };
 		3B9870471E645CD9002FC1DC /* HYMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9870461E645CD9002FC1DC /* HYMonitorTests.m */; };
+		3B9870541E645D09002FC1DC /* HYMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9870531E645D09002FC1DC /* HYMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3B9870421E645CD9002FC1DC /* HYMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9870461E645CD9002FC1DC /* HYMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMonitorTests.m; sourceTree = "<group>"; };
 		3B9870481E645CD9002FC1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9870521E645D09002FC1DC /* HYMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMonitor.h; sourceTree = "<group>"; };
+		3B9870531E645D09002FC1DC /* HYMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		3B98702B1E645CD9002FC1DC /* HYMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				3B9870511E645CF5002FC1DC /* HYMonitor */,
 				3B98702F1E645CD9002FC1DC /* AppDelegate.h */,
 				3B9870301E645CD9002FC1DC /* AppDelegate.m */,
 				3B9870321E645CD9002FC1DC /* ViewController.h */,
@@ -109,6 +113,15 @@
 				3B9870481E645CD9002FC1DC /* Info.plist */,
 			);
 			path = HYMonitorTests;
+			sourceTree = "<group>";
+		};
+		3B9870511E645CF5002FC1DC /* HYMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				3B9870521E645D09002FC1DC /* HYMonitor.h */,
+				3B9870531E645D09002FC1DC /* HYMonitor.m */,
+			);
+			path = HYMonitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				3B9870341E645CD9002FC1DC /* ViewController.m in Sources */,
 				3B9870311E645CD9002FC1DC /* AppDelegate.m in Sources */,
 				3B98702E1E645CD9002FC1DC /* main.m in Sources */,
+				3B9870541E645D09002FC1DC /* HYMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
