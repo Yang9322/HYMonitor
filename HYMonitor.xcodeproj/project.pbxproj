@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7850111E66621E00BB8649 /* HYNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */; };
+		3B7850141E66622E00BB8649 /* HYPreformanMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */; };
+		3B7850171E66627700BB8649 /* HYUserBehaviorMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */; };
 		3B98702E1E645CD9002FC1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98702D1E645CD9002FC1DC /* main.m */; };
 		3B9870311E645CD9002FC1DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9870301E645CD9002FC1DC /* AppDelegate.m */; };
 		3B9870341E645CD9002FC1DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9870331E645CD9002FC1DC /* ViewController.m */; };
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B78500F1E66621E00BB8649 /* HYNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNetworkMonitor.h; sourceTree = "<group>"; };
+		3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkMonitor.m; sourceTree = "<group>"; };
+		3B7850121E66622E00BB8649 /* HYPreformanMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPreformanMonitor.h; sourceTree = "<group>"; };
+		3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPreformanMonitor.m; sourceTree = "<group>"; };
+		3B7850151E66627600BB8649 /* HYUserBehaviorMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYUserBehaviorMonitor.h; sourceTree = "<group>"; };
+		3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYUserBehaviorMonitor.m; sourceTree = "<group>"; };
 		3B9870291E645CD9002FC1DC /* HYMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B98702D1E645CD9002FC1DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B98702F1E645CD9002FC1DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +129,12 @@
 			children = (
 				3B9870521E645D09002FC1DC /* HYMonitor.h */,
 				3B9870531E645D09002FC1DC /* HYMonitor.m */,
+				3B78500F1E66621E00BB8649 /* HYNetworkMonitor.h */,
+				3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */,
+				3B7850121E66622E00BB8649 /* HYPreformanMonitor.h */,
+				3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */,
+				3B7850151E66627600BB8649 /* HYUserBehaviorMonitor.h */,
+				3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */,
 			);
 			path = HYMonitor;
 			sourceTree = "<group>";
@@ -226,9 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7850141E66622E00BB8649 /* HYPreformanMonitor.m in Sources */,
 				3B9870341E645CD9002FC1DC /* ViewController.m in Sources */,
 				3B9870311E645CD9002FC1DC /* AppDelegate.m in Sources */,
 				3B98702E1E645CD9002FC1DC /* main.m in Sources */,
+				3B7850111E66621E00BB8649 /* HYNetworkMonitor.m in Sources */,
+				3B7850171E66627700BB8649 /* HYUserBehaviorMonitor.m in Sources */,
 				3B9870541E645D09002FC1DC /* HYMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +444,7 @@
 				3B98704D1E645CD9002FC1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B98704E1E645CD9002FC1DC /* Build configuration list for PBXNativeTarget "HYMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +453,7 @@
 				3B9870501E645CD9002FC1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

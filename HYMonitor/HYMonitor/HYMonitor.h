@@ -10,4 +10,10 @@
 
 @interface HYMonitor : NSObject
 
++ (instancetype)sharedMonitor;
+
+- (void)startMonitor;
+
+- (void)closeMonitor;
+
 @end
