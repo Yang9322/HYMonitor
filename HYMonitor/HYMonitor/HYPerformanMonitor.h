@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HYPreformanMonitor : NSObject
+@interface HYPerformanMonitor : NSObject
+
+- (void)startPerformanceMonitor;
 
 @end

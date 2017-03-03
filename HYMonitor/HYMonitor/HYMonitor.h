@@ -12,6 +12,8 @@
 
 + (instancetype)sharedMonitor;
 
+@property (nonatomic, assign)BOOL enabledFPSLabel;
+
 - (void)startMonitor;
 
 - (void)closeMonitor;

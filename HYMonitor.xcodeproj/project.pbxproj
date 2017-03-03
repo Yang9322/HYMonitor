@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B42467A1E680F3D00E23DB8 /* HYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4246791E680F3D00E23DB8 /* HYFPSLabel.m */; };
+		3B4937231E6913F5008E9C15 /* HYBackTraceFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4937221E6913F5008E9C15 /* HYBackTraceFetcher.m */; };
 		3B7850111E66621E00BB8649 /* HYNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */; };
-		3B7850141E66622E00BB8649 /* HYPreformanMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */; };
+		3B7850141E66622E00BB8649 /* HYPerformanMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850131E66622E00BB8649 /* HYPerformanMonitor.m */; };
 		3B7850171E66627700BB8649 /* HYUserBehaviorMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */; };
 		3B98702E1E645CD9002FC1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98702D1E645CD9002FC1DC /* main.m */; };
 		3B9870311E645CD9002FC1DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9870301E645CD9002FC1DC /* AppDelegate.m */; };
@@ -31,10 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B4246781E680F3D00E23DB8 /* HYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFPSLabel.h; sourceTree = "<group>"; };
+		3B4246791E680F3D00E23DB8 /* HYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFPSLabel.m; sourceTree = "<group>"; };
+		3B4937211E6913F5008E9C15 /* HYBackTraceFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBackTraceFetcher.h; sourceTree = "<group>"; };
+		3B4937221E6913F5008E9C15 /* HYBackTraceFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBackTraceFetcher.m; sourceTree = "<group>"; };
 		3B78500F1E66621E00BB8649 /* HYNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNetworkMonitor.h; sourceTree = "<group>"; };
 		3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNetworkMonitor.m; sourceTree = "<group>"; };
-		3B7850121E66622E00BB8649 /* HYPreformanMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPreformanMonitor.h; sourceTree = "<group>"; };
-		3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPreformanMonitor.m; sourceTree = "<group>"; };
+		3B7850121E66622E00BB8649 /* HYPerformanMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPerformanMonitor.h; sourceTree = "<group>"; };
+		3B7850131E66622E00BB8649 /* HYPerformanMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPerformanMonitor.m; sourceTree = "<group>"; };
 		3B7850151E66627600BB8649 /* HYUserBehaviorMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYUserBehaviorMonitor.h; sourceTree = "<group>"; };
 		3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYUserBehaviorMonitor.m; sourceTree = "<group>"; };
 		3B9870291E645CD9002FC1DC /* HYMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4246771E680F2C00E23DB8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B4246781E680F3D00E23DB8 /* HYFPSLabel.h */,
+				3B4246791E680F3D00E23DB8 /* HYFPSLabel.m */,
+				3B4937211E6913F5008E9C15 /* HYBackTraceFetcher.h */,
+				3B4937221E6913F5008E9C15 /* HYBackTraceFetcher.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3B9870201E645CD9002FC1DC = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +148,11 @@
 				3B9870531E645D09002FC1DC /* HYMonitor.m */,
 				3B78500F1E66621E00BB8649 /* HYNetworkMonitor.h */,
 				3B7850101E66621E00BB8649 /* HYNetworkMonitor.m */,
-				3B7850121E66622E00BB8649 /* HYPreformanMonitor.h */,
-				3B7850131E66622E00BB8649 /* HYPreformanMonitor.m */,
+				3B7850121E66622E00BB8649 /* HYPerformanMonitor.h */,
+				3B7850131E66622E00BB8649 /* HYPerformanMonitor.m */,
 				3B7850151E66627600BB8649 /* HYUserBehaviorMonitor.h */,
 				3B7850161E66627700BB8649 /* HYUserBehaviorMonitor.m */,
+				3B4246771E680F2C00E23DB8 /* Utilities */,
 			);
 			path = HYMonitor;
 			sourceTree = "<group>";
@@ -188,6 +206,7 @@
 				TargetAttributes = {
 					3B9870281E645CD9002FC1DC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5B9FU4LA3B;
 						ProvisioningStyle = Automatic;
 					};
 					3B9870411E645CD9002FC1DC = {
@@ -241,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7850141E66622E00BB8649 /* HYPreformanMonitor.m in Sources */,
+				3B7850141E66622E00BB8649 /* HYPerformanMonitor.m in Sources */,
+				3B42467A1E680F3D00E23DB8 /* HYFPSLabel.m in Sources */,
+				3B4937231E6913F5008E9C15 /* HYBackTraceFetcher.m in Sources */,
 				3B9870341E645CD9002FC1DC /* ViewController.m in Sources */,
 				3B9870311E645CD9002FC1DC /* AppDelegate.m in Sources */,
 				3B98702E1E645CD9002FC1DC /* main.m in Sources */,
@@ -383,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B9FU4LA3B;
 				INFOPLIST_FILE = HYMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.HYMonitor;
@@ -394,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B9FU4LA3B;
 				INFOPLIST_FILE = HYMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.HYMonitor;
